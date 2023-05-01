@@ -1,0 +1,74 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #fefdfd inset !important;
+  /* transition: background-color 5000s ease-in-out 0s; */
+  -webkit-text-fill-color: #000000 !important;
+}
+
+.MuiTextField-root {
+  background: #fafafa;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  background-color: #fff;
+  font-size: 0.9rem;
+  font-family: Inter, sans-serif;
+}
+
+.bookImagesGrid {
+  height: 60px;
+  object-fit: cover;
+}
+
+.terms {
+  color: #00e676;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+div.MuiCardContent-root {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #009de6;
+}
+
+.imgCardComponent {
+  margin: 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.errorPage {
+  margin: 2rem 0 2rem 0;
+}
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  /* .MuiInputBase-root,
+  .MuiFormControl-root {
+    max-width: 300px;
+  } */
+  .errorPage {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+.bookNotFoundCenter {
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

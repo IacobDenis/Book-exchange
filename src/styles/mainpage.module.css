@@ -1,0 +1,60 @@
+.bookPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.bookImage {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.bookContent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 2rem;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 900px) {
+  .bookPage {
+    padding: 1rem;
+  }
+  img {
+    width: 320px;
+    height: 550px;
+  }
+  .bookImage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .welcomeTitle {
+    text-align: center;
+  }
+
+  .searchBar {
+    justify-content: center;
+  }
+
+  .bookContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+}
